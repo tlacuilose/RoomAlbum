@@ -9,11 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                NavigationLink(destination: PhotosView()) {
+                    Text("Photos")
+                }
+            }
+            .navigationTitle("Albums")
+        }
     }
 }
 
+
+struct PhotosView: View {
+    var body: some View {
+        List {
+            Image(systemName: "photo")
+        }
+        .navigationTitle("Photos")
+    }
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
