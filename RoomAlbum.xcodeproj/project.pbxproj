@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0205864D268AD83A00E6EEAC /* RoomAlbumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205864C268AD83A00E6EEAC /* RoomAlbumApp.swift */; };
-		0205864F268AD83A00E6EEAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205864E268AD83A00E6EEAC /* ContentView.swift */; };
 		02058651268AD83B00E6EEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02058650268AD83B00E6EEAC /* Assets.xcassets */; };
 		02058654268AD83B00E6EEAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02058653268AD83B00E6EEAC /* Preview Assets.xcassets */; };
 		0205865F268AD83B00E6EEAC /* RoomAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0205865E268AD83B00E6EEAC /* RoomAlbumTests.swift */; };
 		0205866A268AD83B00E6EEAC /* RoomAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02058669268AD83B00E6EEAC /* RoomAlbumUITests.swift */; };
+		0240DD8F268C26560033C6CB /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240DD8E268C26560033C6CB /* RoomView.swift */; };
+		0240DD91268C334E0033C6CB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240DD90268C334E0033C6CB /* Room.swift */; };
+		0240DD94268C34030033C6CB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240DD93268C34030033C6CB /* Photo.swift */; };
+		0240DD96268C34530033C6CB /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240DD95268C34530033C6CB /* AlbumList.swift */; };
+		0240DD98268C34B70033C6CB /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240DD97268C34B70033C6CB /* AlbumCell.swift */; };
+		0240DD9A268C366D0033C6CB /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240DD99268C366D0033C6CB /* AlbumView.swift */; };
+		02ABE4FF268BB2C700777272 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ABE4FE268BB2C700777272 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,6 @@
 /* Begin PBXFileReference section */
 		02058649268AD83A00E6EEAC /* RoomAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0205864C268AD83A00E6EEAC /* RoomAlbumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomAlbumApp.swift; sourceTree = "<group>"; };
-		0205864E268AD83A00E6EEAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02058650268AD83B00E6EEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02058653268AD83B00E6EEAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02058655268AD83B00E6EEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +50,13 @@
 		02058665268AD83B00E6EEAC /* RoomAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02058669268AD83B00E6EEAC /* RoomAlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomAlbumUITests.swift; sourceTree = "<group>"; };
 		0205866B268AD83B00E6EEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0240DD8E268C26560033C6CB /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		0240DD90268C334E0033C6CB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		0240DD93268C34030033C6CB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		0240DD95268C34530033C6CB /* AlbumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
+		0240DD97268C34B70033C6CB /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		0240DD99268C366D0033C6CB /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		02ABE4FE268BB2C700777272 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +107,9 @@
 		0205864B268AD83A00E6EEAC /* RoomAlbum */ = {
 			isa = PBXGroup;
 			children = (
-				0205864C268AD83A00E6EEAC /* RoomAlbumApp.swift */,
-				0205864E268AD83A00E6EEAC /* ContentView.swift */,
-				02058650268AD83B00E6EEAC /* Assets.xcassets */,
-				02058655268AD83B00E6EEAC /* Info.plist */,
+				0240DD9D268C377A0033C6CB /* App */,
+				0240DD9C268C37710033C6CB /* Data */,
+				0240DD9B268C37660033C6CB /* Views */,
 				02058652268AD83B00E6EEAC /* Preview Content */,
 			);
 			path = RoomAlbum;
@@ -128,6 +139,37 @@
 				0205866B268AD83B00E6EEAC /* Info.plist */,
 			);
 			path = RoomAlbumUITests;
+			sourceTree = "<group>";
+		};
+		0240DD9B268C37660033C6CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0240DD8E268C26560033C6CB /* RoomView.swift */,
+				0240DD95268C34530033C6CB /* AlbumList.swift */,
+				0240DD97268C34B70033C6CB /* AlbumCell.swift */,
+				0240DD99268C366D0033C6CB /* AlbumView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0240DD9C268C37710033C6CB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0240DD90268C334E0033C6CB /* Room.swift */,
+				02ABE4FE268BB2C700777272 /* Album.swift */,
+				0240DD93268C34030033C6CB /* Photo.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0240DD9D268C377A0033C6CB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0205864C268AD83A00E6EEAC /* RoomAlbumApp.swift */,
+				02058655268AD83B00E6EEAC /* Info.plist */,
+				02058650268AD83B00E6EEAC /* Assets.xcassets */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0205864F268AD83A00E6EEAC /* ContentView.swift in Sources */,
+				0240DD94268C34030033C6CB /* Photo.swift in Sources */,
+				0240DD96268C34530033C6CB /* AlbumList.swift in Sources */,
+				0240DD98268C34B70033C6CB /* AlbumCell.swift in Sources */,
+				0240DD8F268C26560033C6CB /* RoomView.swift in Sources */,
 				0205864D268AD83A00E6EEAC /* RoomAlbumApp.swift in Sources */,
+				02ABE4FF268BB2C700777272 /* Album.swift in Sources */,
+				0240DD9A268C366D0033C6CB /* AlbumView.swift in Sources */,
+				0240DD91268C334E0033C6CB /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +469,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RoomAlbum/Preview Content\"";
 				DEVELOPMENT_TEAM = 8JM9F46XG3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RoomAlbum/Info.plist;
+				INFOPLIST_FILE = RoomAlbum/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +491,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RoomAlbum/Preview Content\"";
 				DEVELOPMENT_TEAM = 8JM9F46XG3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RoomAlbum/Info.plist;
+				INFOPLIST_FILE = RoomAlbum/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,7 +554,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JM9F46XG3;
-				INFOPLIST_FILE = RoomAlbumUITests/Info.plist;
+				INFOPLIST_FILE = RoomAlbumUITests/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,7 +574,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JM9F46XG3;
-				INFOPLIST_FILE = RoomAlbumUITests/Info.plist;
+				INFOPLIST_FILE = RoomAlbumUITests/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

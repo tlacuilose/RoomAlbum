@@ -11,7 +11,7 @@ import SwiftUI
 struct RoomAlbumApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RoomView()
         }
     }
 }
